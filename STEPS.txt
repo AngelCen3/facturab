@@ -1,0 +1,19 @@
+php --version
+composer --version
+laravel --version
+npm --version
+mariadb --version
+laravel new facturab
+cd facturab
+code .
+npm install vite --save-dev
+
+<!--<a href="{{ route('home') }}">Home</a>
+        <a href="{{ route('clientes') }}">Clientes</a>
+        <a href="{{ route('empresas') }}">Empresas</a>-->
+
+
+php artisan route:list  //Para ver con las rutas que estan abilitadas
+
+#ERROR --> Call to undefined method App\Models\User::clientes()
+                C:\Users\Cliente\facturab\app\Models\User.php 
