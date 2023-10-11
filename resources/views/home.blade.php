@@ -142,8 +142,7 @@
                             </td>
                             <td class="px-6 py-4m bg-gray-600 text-white whitespace-nowrap">
                                 {{ $cliente->direccion }}
-                                    <a href="{{ route('clientes.edit', $cliente) }}" class="text-indigo-600">Editar</a> 
-                                                         
+                                    <a href="{{ route('clientes.edit', $cliente) }}" class="text-indigo-600">Editar</a>                                                         
                             </td>
     
                             <!-- Agrega más columnas según tus necesidades -->
